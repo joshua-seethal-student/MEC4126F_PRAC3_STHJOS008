@@ -7,7 +7,8 @@ struct myData		// declare a struct of type "myData"
 
 void setup()
 {
-
+  person.Age = 23;
+  strcpy(person.FirstName, "Joshua");	// initializing the elements of "person"
 }
 
 void loop()
